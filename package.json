@@ -1,0 +1,24 @@
+{
+  "name": "cs-coding-assignment",
+  "version": "1.0.0",
+  "description": "canvas drawing via cmd",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --transpilers js:babel-core/register \"./**/*.test.js*\""
+  },
+  "keywords": [
+    "csca"
+  ],
+  "author": "Azad Pal",
+  "license": "ISC",
+  "dependencies": {
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
+}
